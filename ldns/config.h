@@ -1,0 +1,654 @@
+/* ldns/config.h.  Generated from config.h.in by configure.  */
+/* ldns/config.h.  Generated from config.h.in by configure.  */
+    2 /* ldns/config.h.in.  Generated from configure.ac by autoheader.  */
+    3 
+    4 /* Define if building universal (internal helper macro) */
+    5 /* #undef AC_APPLE_UNIVERSAL_BUILD */
+    6 
+    7 /* Define to 1 if you have the <arpa/inet.h> header file. */
+    8 #define HAVE_ARPA_INET_H 1
+    9 
+   10 /* Whether the C compiler accepts the "format" attribute */
+   11 #define HAVE_ATTR_FORMAT 1
+   12 
+   13 /* Whether the C compiler accepts the "unused" attribute */
+   14 #define HAVE_ATTR_UNUSED 1
+   15 
+   16 /* Define to 1 if you have the `b32_ntop' function. */
+   17 /* #undef HAVE_B32_NTOP */
+   18 
+   19 /* Define to 1 if you have the `b32_pton' function. */
+   20 /* #undef HAVE_B32_PTON */
+   21 
+   22 /* Define to 1 if you have the `b64_ntop' function. */
+   23 /* #undef HAVE_B64_NTOP */
+   24 
+   25 /* Define to 1 if you have the `b64_pton' function. */
+   26 /* #undef HAVE_B64_PTON */
+   27 
+   28 /* Define to 1 if you have the `bzero' function. */
+   29 #define HAVE_BZERO 1
+   30 
+   31 /* Define to 1 if you have the `calloc' function. */
+   32 #define HAVE_CALLOC 1
+   33 
+   34 /* Define to 1 if you have the `ctime_r' function. */
+   35 #define HAVE_CTIME_R 1
+   36 
+   37 /* Is a CAFILE given at configure time */
+   38 #define HAVE_DANE_CA_FILE 0
+   39 
+   40 /* Is a CAPATH given at configure time */
+   41 #define HAVE_DANE_CA_PATH 0
+   42 
+   43 /* Define to 1 if you have the declaration of `NID_secp384r1', and to 0 if you
+   44    don't. */
+   45 #define HAVE_DECL_NID_SECP384R1 1
+   46 
+   47 /* Define to 1 if you have the declaration of `NID_X25519', and to 0 if you
+   48    don't. */
+   49 /* #undef HAVE_DECL_NID_X25519 */
+   50 
+   51 /* Define to 1 if you have the declaration of `NID_X448', and to 0 if you
+   52    don't. */
+   53 /* #undef HAVE_DECL_NID_X448 */
+   54 
+   55 /* Define to 1 if you have the declaration of `NID_X9_62_prime256v1', and to 0
+   56    if you don't. */
+   57 #define HAVE_DECL_NID_X9_62_PRIME256V1 1
+   58 
+   59 /* Define to 1 if you have the <dlfcn.h> header file. */
+   60 #define HAVE_DLFCN_H 1
+   61 
+   62 /* Define to 1 if you have the `DSA_get0_key' function. */
+   63 /* #undef HAVE_DSA_GET0_KEY */
+   64 
+   65 /* Define to 1 if you have the `DSA_get0_pqg' function. */
+   66 /* #undef HAVE_DSA_GET0_PQG */
+   67 
+   68 /* Define to 1 if you have the `DSA_SIG_get0' function. */
+   69 /* #undef HAVE_DSA_SIG_GET0 */
+   70 
+   71 /* Define to 1 if you have the `DSA_SIG_set0' function. */
+   72 /* #undef HAVE_DSA_SIG_SET0 */
+   73 
+   74 /* Define to 1 if you have the `ECDSA_SIG_get0' function. */
+   75 /* #undef HAVE_ECDSA_SIG_GET0 */
+   76 
+   77 /* Define to 1 if you have the `endprotoent' function. */
+   78 #define HAVE_ENDPROTOENT 1
+   79 
+   80 /* Define to 1 if you have the `endservent' function. */
+   81 #define HAVE_ENDSERVENT 1
+   82 
+   83 /* Define to 1 if you have the `ENGINE_load_cryptodev' function. */
+   84 #define HAVE_ENGINE_LOAD_CRYPTODEV 1
+   85 
+   86 /* Define to 1 if you have the `EVP_dss1' function. */
+   87 #define HAVE_EVP_DSS1 1
+   88 
+   89 /* Define to 1 if you have the `EVP_MD_CTX_new' function. */
+   90 /* #undef HAVE_EVP_MD_CTX_NEW */
+   91 
+   92 /* Define to 1 if you have the `EVP_PKEY_base_id' function. */
+   93 #define HAVE_EVP_PKEY_BASE_ID 1
+   94 
+   95 /* Define to 1 if you have the `EVP_PKEY_keygen' function. */
+   96 #define HAVE_EVP_PKEY_KEYGEN 1
+   97 
+   98 /* Define to 1 if you have the `EVP_sha256' function. */
+   99 #define HAVE_EVP_SHA256 1
+  100 
+  101 /* Define to 1 if you have the `EVP_sha384' function. */
+  102 #define HAVE_EVP_SHA384 1
+  103 
+  104 /* Define to 1 if you have the `EVP_sha512' function. */
+  105 #define HAVE_EVP_SHA512 1
+  106 
+  107 /* Define to 1 if you have the `fcntl' function. */
+  108 #define HAVE_FCNTL 1
+  109 
+  110 /* Define to 1 if you have the `fork' function. */
+  111 #define HAVE_FORK 1
+  112 
+  113 /* Whether getaddrinfo is available */
+  114 #define HAVE_GETADDRINFO 1
+  115 
+  116 /* Define to 1 if you have the <getopt.h> header file. */
+  117 #define HAVE_GETOPT_H 1
+  118 
+  119 /* Define to 1 if you have the `gmtime_r' function. */
+  120 #define HAVE_GMTIME_R 1
+  121 
+  122 /* If you have HMAC_Update */
+  123 #define HAVE_HMAC_UPDATE 1
+  124 
+  125 /* Define to 1 if you have the `inet_aton' function. */
+  126 #define HAVE_INET_ATON 1
+  127 
+  128 /* Define to 1 if you have the `inet_ntop' function. */
+  129 #define HAVE_INET_NTOP 1
+  130 
+  131 /* Define to 1 if you have the `inet_pton' function. */
+  132 #define HAVE_INET_PTON 1
+  133 
+  134 /* define if you have inttypes.h */
+  135 #define HAVE_INTTYPES_H 1
+  136 
+  137 /* if the function 'ioctlsocket' is available */
+  138 /* #undef HAVE_IOCTLSOCKET */
+  139 
+  140 /* Define to 1 if you have the `isascii' function. */
+  141 #define HAVE_ISASCII 1
+  142 
+  143 /* Define to 1 if you have the `isblank' function. */
+  144 #define HAVE_ISBLANK 1
+  145 
+  146 /* Define to 1 if you have the `pcap' library (-lpcap). */
+  147 #define HAVE_LIBPCAP 1
+  148 
+  149 /* Define if we have LibreSSL */
+  150 /* #undef HAVE_LIBRESSL */
+  151 
+  152 /* Define to 1 if you have the `localtime_r' function. */
+  153 #define HAVE_LOCALTIME_R 1
+  154 
+  155 /* Define to 1 if your system has a GNU libc compatible `malloc' function, and
+  156    to 0 otherwise. */
+  157 #define HAVE_MALLOC 1
+  158 
+  159 /* Define to 1 if you have the `memmove' function. */
+  160 #define HAVE_MEMMOVE 1
+  161 
+  162 /* Define to 1 if you have the <memory.h> header file. */
+  163 #define HAVE_MEMORY_H 1
+  164 
+  165 /* Define to 1 if you have the `memset' function. */
+  166 #define HAVE_MEMSET 1
+  167 
+  168 /* Define to 1 if you have the <netdb.h> header file. */
+  169 #define HAVE_NETDB_H 1
+  170 
+  171 /* Define to 1 if you have the <netinet/if_ether.h> header file. */
+  172 #define HAVE_NETINET_IF_ETHER_H 1
+  173 
+  174 /* Define to 1 if you have the <netinet/igmp.h> header file. */
+  175 #define HAVE_NETINET_IGMP_H 1
+  176 
+  177 /* Define to 1 if you have the <netinet/in.h> header file. */
+  178 #define HAVE_NETINET_IN_H 1
+  179 
+  180 /* Define to 1 if you have the <netinet/in_systm.h> header file. */
+  181 #define HAVE_NETINET_IN_SYSTM_H 1
+  182 
+  183 /* Define to 1 if you have the <netinet/ip6.h> header file. */
+  184 #define HAVE_NETINET_IP6_H 1
+  185 
+  186 /* Define to 1 if you have the <netinet/ip_compat.h> header file. */
+  187 #define HAVE_NETINET_IP_COMPAT_H 1
+  188 
+  189 /* Define to 1 if you have the <netinet/ip.h> header file. */
+  190 #define HAVE_NETINET_IP_H 1
+  191 
+  192 /* Define to 1 if you have the <netinet/udp.h> header file. */
+  193 #define HAVE_NETINET_UDP_H 1
+  194 
+  195 /* Define to 1 if you have the <net/ethernet.h> header file. */
+  196 #define HAVE_NET_ETHERNET_H 1
+  197 
+  198 /* Define to 1 if you have the <net/if.h> header file. */
+  199 #define HAVE_NET_IF_H 1
+  200 
+  201 /* Define to 1 if you have the <openssl/err.h> header file. */
+  202 #define HAVE_OPENSSL_ERR_H 1
+  203 
+  204 /* Define to 1 if you have the <openssl/rand.h> header file. */
+  205 #define HAVE_OPENSSL_RAND_H 1
+  206 
+  207 /* Define to 1 if you have the <openssl/ssl.h> header file. */
+  208 #define HAVE_OPENSSL_SSL_H 1
+  209 
+  210 /* Define to 1 if you have the <pcap.h> header file. */
+  211 #define HAVE_PCAP_H 1
+  212 
+  213 /* This platform supports poll(7). */
+  214 #define HAVE_POLL 1
+  215 
+  216 /* If available, contains the Python version number currently in use. */
+  217 #define HAVE_PYTHON "2.7"
+  218 
+  219 /* Define to 1 if you have the `random' function. */
+  220 #define HAVE_RANDOM 1
+  221 
+  222 /* Define to 1 if your system has a GNU libc compatible `realloc' function,
+  223    and to 0 otherwise. */
+  224 #define HAVE_REALLOC 1
+  225 
+  226 /* Define to 1 if you have the `sleep' function. */
+  227 #define HAVE_SLEEP 1
+  228 
+  229 /* Define to 1 if you have the `snprintf' function. */
+  230 #define HAVE_SNPRINTF 1
+  231 
+  232 /* Define if you have the SSL libraries installed. */
+  233 #define HAVE_SSL 
+  234 
+  235 /* Define to 1 if you have the <stdarg.h> header file. */
+  236 #define HAVE_STDARG_H 1
+  237 
+  238 /* Define to 1 if stdbool.h conforms to C99. */
+  239 #define HAVE_STDBOOL_H 1
+  240 
+  241 /* Define to 1 if you have the <stdint.h> header file. */
+  242 #define HAVE_STDINT_H 1
+  243 
+  244 /* Define to 1 if you have the <stdlib.h> header file. */
+  245 #define HAVE_STDLIB_H 1
+  246 
+  247 /* Define to 1 if you have the <strings.h> header file. */
+  248 #define HAVE_STRINGS_H 1
+  249 
+  250 /* Define to 1 if you have the <string.h> header file. */
+  251 #define HAVE_STRING_H 1
+  252 
+  253 /* Define to 1 if you have the `strlcpy' function. */
+  254 #define HAVE_STRLCPY 1
+  255 
+  256 /* Define to 1 if you have the `strtoul' function. */
+  257 #define HAVE_STRTOUL 1
+  258 
+  259 /* Define if you have SWIG libraries and header files. */
+  260 #define HAVE_SWIG 1
+  261 
+  262 /* Define to 1 if you have the <sys/mount.h> header file. */
+  263 #define HAVE_SYS_MOUNT_H 1
+  264 
+  265 /* Define to 1 if you have the <sys/param.h> header file. */
+  266 #define HAVE_SYS_PARAM_H 1
+  267 
+  268 /* define if you have sys/socket.h */
+  269 #define HAVE_SYS_SOCKET_H 1
+  270 
+  271 /* Define to 1 if you have the <sys/stat.h> header file. */
+  272 #define HAVE_SYS_STAT_H 1
+  273 
+  274 /* define if you have sys/types.h */
+  275 #define HAVE_SYS_TYPES_H 1
+  276 
+  277 /* Define to 1 if you have the `timegm' function. */
+  278 #define HAVE_TIMEGM 1
+  279 
+  280 /* Define to 1 if you have the <time.h> header file. */
+  281 #define HAVE_TIME_H 1
+  282 
+  283 /* define if you have unistd.h */
+  284 #define HAVE_UNISTD_H 1
+  285 
+  286 /* Define to 1 if you have the `vfork' function. */
+  287 #define HAVE_VFORK 1
+  288 
+  289 /* Define to 1 if you have the <vfork.h> header file. */
+  290 /* #undef HAVE_VFORK_H */
+  291 
+  292 /* Define to 1 if you have the <winsock2.h> header file. */
+  293 /* #undef HAVE_WINSOCK2_H */
+  294 
+  295 /* Define to 1 if `fork' works. */
+  296 #define HAVE_WORKING_FORK 1
+  297 
+  298 /* Define to 1 if `vfork' works. */
+  299 #define HAVE_WORKING_VFORK 1
+  300 
+  301 /* Define to 1 if you have the <ws2tcpip.h> header file. */
+  302 /* #undef HAVE_WS2TCPIP_H */
+  303 
+  304 /* Define to 1 if the system has the type `_Bool'. */
+  305 #define HAVE__BOOL 1
+  306 
+  307 /* Is a CAFILE given at configure time */
+  308 /* #undef LDNS_DANE_CA_FILE */
+  309 
+  310 /* Is a CAPATH given at configure time */
+  311 /* #undef LDNS_DANE_CA_PATH */
+  312 
+  313 /* Define to the sub-directory where libtool stores uninstalled libraries. */
+  314 #define LT_OBJDIR ".libs/"
+  315 
+  316 /* Define to the address where bug reports for this package should be sent. */
+  317 #define PACKAGE_BUGREPORT "libdns@nlnetlabs.nl"
+  318 
+  319 /* Define to the full name of this package. */
+  320 #define PACKAGE_NAME "ldns"
+  321 
+  322 /* Define to the full name and version of this package. */
+  323 #define PACKAGE_STRING "ldns 1.7.0"
+  324 
+  325 /* Define to the one symbol short name of this package. */
+  326 #define PACKAGE_TARNAME "libdns"
+  327 
+  328 /* Define to the home page for this package. */
+  329 #define PACKAGE_URL ""
+  330 
+  331 /* Define to the version of this package. */
+  332 #define PACKAGE_VERSION "1.7.0"
+  333 
+  334 /* Define this to enable RR type AVC. */
+  335 /* #undef RRTYPE_AVC */
+  336 
+  337 /* Define this to enable RR type NINFO. */
+  338 /* #undef RRTYPE_NINFO */
+  339 
+  340 /* Define this to enable RR type OPENPGPKEY. */
+  341 #define RRTYPE_OPENPGPKEY 
+  342 
+  343 /* Define this to enable RR type RKEY. */
+  344 /* #undef RRTYPE_RKEY */
+  345 
+  346 /* Define this to enable RR type TA. */
+  347 /* #undef RRTYPE_TA */
+  348 
+  349 /* The size of `time_t', as computed by sizeof. */
+  350 #define SIZEOF_TIME_T 8
+  351 
+  352 /* Define to 1 if you have the ANSI C header files. */
+  353 #define STDC_HEADERS 1
+  354 
+  355 /* Define this to enable messages to stderr. */
+  356 /* #undef STDERR_MSGS */
+  357 
+  358 /* System configuration dir */
+  359 #define SYSCONFDIR sysconfdir
+  360 
+  361 /* Define this to enable DANE support. */
+  362 #define USE_DANE 1
+  363 
+  364 /* Define this to enable DANE-TA usage type support. */
+  365 /* #undef USE_DANE_TA_USAGE */
+  366 
+  367 /* Define this to enable DANE verify support. */
+  368 #define USE_DANE_VERIFY 1
+  369 
+  370 /* Define this to enable DSA support. */
+  371 #define USE_DSA 1
+  372 
+  373 /* Define this to enable ECDSA support. */
+  374 #define USE_ECDSA 1
+  375 
+  376 /* Define this to enable ED25519 support. */
+  377 /* #undef USE_ED25519 */
+  378 
+  379 /* Define this to enable ED448 support. */
+  380 /* #undef USE_ED448 */
+  381 
+  382 /* Define this to enable GOST support. */
+  383 #define USE_GOST 1
+  384 
+  385 /* Define this to enable SHA256 and SHA512 support. */
+  386 #define USE_SHA2 1
+  387 
+  388 /* Enable extensions on AIX 3, Interix.  */
+  389 #ifndef _ALL_SOURCE
+  390 # define _ALL_SOURCE 1
+  391 #endif
+  392 /* Enable GNU extensions on systems that have them.  */
+  393 #ifndef _GNU_SOURCE
+  394 # define _GNU_SOURCE 1
+  395 #endif
+  396 /* Enable threading extensions on Solaris.  */
+  397 #ifndef _POSIX_PTHREAD_SEMANTICS
+  398 # define _POSIX_PTHREAD_SEMANTICS 1
+  399 #endif
+  400 /* Enable extensions on HP NonStop.  */
+  401 #ifndef _TANDEM_SOURCE
+  402 # define _TANDEM_SOURCE 1
+  403 #endif
+  404 /* Enable general extensions on Solaris.  */
+  405 #ifndef __EXTENSIONS__
+  406 # define __EXTENSIONS__ 1
+  407 #endif
+  408 
+  409 
+  410 /* Whether the windows socket API is used */
+  411 /* #undef USE_WINSOCK */
+  412 
+  413 /* the version of the windows API enabled */
+  414 #define WINVER 0x0502
+  415 
+  416 /* Define WORDS_BIGENDIAN to 1 if your processor stores words with the most
+  417    significant byte first (like Motorola and SPARC, unlike Intel). */
+  418 #if defined AC_APPLE_UNIVERSAL_BUILD
+  419 # if defined __BIG_ENDIAN__
+  420 #  define WORDS_BIGENDIAN 1
+  421 # endif
+  422 #else
+  423 # ifndef WORDS_BIGENDIAN
+  424 /* #  undef WORDS_BIGENDIAN */
+  425 # endif
+  426 #endif
+  427 
+  428 /* Define to 1 if on MINIX. */
+  429 /* #undef _MINIX */
+  430 
+  431 /* Enable for compile on Minix */
+  432 /* #undef _NETBSD_SOURCE */
+  433 
+  434 /* Define to 2 if the system does not provide POSIX.1 features except with
+  435    this defined. */
+  436 /* #undef _POSIX_1_SOURCE */
+  437 
+  438 /* Define to 1 if you need to in order for `stat' and other things to work. */
+  439 /* #undef _POSIX_SOURCE */
+  440 
+  441 /* Define to empty if `const' does not conform to ANSI C. */
+  442 /* #undef const */
+  443 
+  444 /* in_addr_t */
+  445 /* #undef in_addr_t */
+  446 
+  447 /* in_port_t */
+  448 /* #undef in_port_t */
+  449 
+  450 /* Define to `__inline__' or `__inline' if that's what the C compiler
+  451    calls it, or to nothing if 'inline' is not supported under any name.  */
+  452 #ifndef __cplusplus
+  453 /* #undef inline */
+  454 #endif
+  455 
+  456 /* Define to `short' if <sys/types.h> does not define. */
+  457 /* #undef int16_t */
+  458 
+  459 /* Define to `int' if <sys/types.h> does not define. */
+  460 /* #undef int32_t */
+  461 
+  462 /* Define to `long long' if <sys/types.h> does not define. */
+  463 /* #undef int64_t */
+  464 
+  465 /* Define to `char' if <sys/types.h> does not define. */
+  466 /* #undef int8_t */
+  467 
+  468 /* Define to `size_t' if <sys/types.h> does not define. */
+  469 /* #undef intptr_t */
+  470 
+  471 /* Define to rpl_malloc if the replacement function should be used. */
+  472 /* #undef malloc */
+  473 
+  474 /* Define to `int' if <sys/types.h> does not define. */
+  475 /* #undef pid_t */
+  476 
+  477 /* Define to rpl_realloc if the replacement function should be used. */
+  478 /* #undef realloc */
+  479 
+  480 /* Define to `unsigned int' if <sys/types.h> does not define. */
+  481 /* #undef size_t */
+  482 
+  483 /* Define to 'int' if not defined */
+  484 /* #undef socklen_t */
+  485 
+  486 /* Fallback member name for socket family in struct sockaddr_storage */
+  487 /* #undef ss_family */
+  488 
+  489 /* Define to `int' if <sys/types.h> does not define. */
+  490 /* #undef ssize_t */
+  491 
+  492 /* Define to `unsigned short' if <sys/types.h> does not define. */
+  493 /* #undef uint16_t */
+  494 
+  495 /* Define to `unsigned int' if <sys/types.h> does not define. */
+  496 /* #undef uint32_t */
+  497 
+  498 /* Define to `unsigned long long' if <sys/types.h> does not define. */
+  499 /* #undef uint64_t */
+  500 
+  501 /* Define to `unsigned char' if <sys/types.h> does not define. */
+  502 /* #undef uint8_t */
+  503 
+  504 /* Define as `fork' if `vfork' does not work. */
+  505 /* #undef vfork */
+  506 
+  507 
+  508 #include <stdio.h>
+  509 #include <string.h>
+  510 #include <unistd.h>
+  511 #include <assert.h>
+  512 
+  513 #ifndef LITTLE_ENDIAN
+  514 #define LITTLE_ENDIAN 1234
+  515 #endif
+  516 
+  517 #ifndef BIG_ENDIAN
+  518 #define BIG_ENDIAN 4321
+  519 #endif
+  520 
+  521 #ifndef BYTE_ORDER
+  522 #ifdef WORDS_BIGENDIAN
+  523 #define BYTE_ORDER BIG_ENDIAN
+  524 #else
+  525 #define BYTE_ORDER LITTLE_ENDIAN
+  526 #endif /* WORDS_BIGENDIAN */
+  527 #endif /* BYTE_ORDER */
+  528 
+  529 #if STDC_HEADERS
+  530 #include <stdlib.h>
+  531 #include <stddef.h>
+  532 #endif
+  533 
+  534 #ifdef HAVE_STDINT_H
+  535 #include <stdint.h>
+  536 #endif
+  537 
+  538 #ifdef HAVE_SYS_SOCKET_H
+  539 #include <sys/socket.h>
+  540 #endif
+  541 
+  542 #ifdef HAVE_NETINET_IN_H
+  543 #include <netinet/in.h>
+  544 #endif
+  545 
+  546 #ifdef HAVE_ARPA_INET_H
+  547 #include <arpa/inet.h>
+  548 #endif
+  549 
+  550 #ifdef HAVE_WINSOCK2_H
+  551 #include <winsock2.h>
+  552 #endif
+  553 
+  554 #ifdef HAVE_WS2TCPIP_H
+  555 #include <ws2tcpip.h>
+  556 #endif
+  557 
+  558 
+  559 /* detect if we need to cast to unsigned int for FD_SET to avoid warnings */
+  560 #ifdef HAVE_WINSOCK2_H
+  561 #define FD_SET_T (u_int)
+  562 #else
+  563 #define FD_SET_T 
+  564 #endif
+  565 
+  566 
+  567 
+  568 
+  569 #ifdef __cplusplus
+  570 extern "C" {
+  571 #endif
+  572 
+  573 int ldns_b64_ntop(uint8_t const *src, size_t srclength,
+  574                   char *target, size_t targsize);
+  578 /*@unused@*/
+  579 static inline size_t ldns_b64_ntop_calculate_size(size_t srcsize)
+  580 {
+  581         return ((((srcsize + 2) / 3) * 4) + 1);
+  582 }
+  583 int ldns_b64_pton(char const *src, uint8_t *target, size_t targsize);
+  587 /*@unused@*/
+  588 static inline size_t ldns_b64_pton_calculate_size(size_t srcsize)
+  589 {
+  590         return (((((srcsize + 3) / 4) * 3)) + 1);
+  591 }
+  592 
+  597 int ldns_dname_compare_v(const void *a, const void *b);
+  598 
+  599 #ifndef HAVE_SLEEP
+  600 /* use windows sleep, in millisecs, instead */
+  601 #define sleep(x) Sleep((x)*1000)
+  602 #endif
+  603 
+  604 #ifndef HAVE_RANDOM
+  605 #define srandom(x) srand(x)
+  606 #define random(x) rand(x)
+  607 #endif
+  608 
+  609 #ifndef HAVE_TIMEGM
+  610 #include <time.h>
+  611 time_t timegm (struct tm *tm);
+  612 #endif /* !TIMEGM */
+  613 #ifndef HAVE_GMTIME_R
+  614 struct tm *gmtime_r(const time_t *timep, struct tm *result);
+  615 #endif
+  616 #ifndef HAVE_LOCALTIME_R
+  617 struct tm *localtime_r(const time_t *timep, struct tm *result);
+  618 #endif
+  619 #ifndef HAVE_ISBLANK
+  620 int isblank(int c);
+  621 #endif /* !HAVE_ISBLANK */
+  622 #ifndef HAVE_ISASCII
+  623 int isascii(int c);
+  624 #endif /* !HAVE_ISASCII */
+  625 #ifndef HAVE_SNPRINTF
+  626 #include <stdarg.h>
+  627 int snprintf (char *str, size_t count, const char *fmt, ...);
+  628 int vsnprintf (char *str, size_t count, const char *fmt, va_list arg);
+  629 #endif /* HAVE_SNPRINTF */
+  630 #ifndef HAVE_INET_PTON
+  631 int inet_pton(int af, const char* src, void* dst);
+  632 #endif /* HAVE_INET_PTON */
+  633 #ifndef HAVE_INET_NTOP
+  634 const char *inet_ntop(int af, const void *src, char *dst, size_t size);
+  635 #endif
+  636 #ifndef HAVE_INET_ATON
+  637 int inet_aton(const char *cp, struct in_addr *addr);
+  638 #endif
+  639 #ifndef HAVE_MEMMOVE
+  640 void *memmove(void *dest, const void *src, size_t n);
+  641 #endif
+  642 #ifndef HAVE_STRLCPY
+  643 size_t strlcpy(char *dst, const char *src, size_t siz);
+  644 #endif
+  645 
+  646 #ifdef USE_WINSOCK
+  647 #define SOCK_INVALID INVALID_SOCKET
+  648 #define close_socket(_s) do { if (_s > SOCK_INVALID) {closesocket(_s); _s = SOCK_INVALID;} } while(0)
+  649 #else
+  650 #define SOCK_INVALID -1
+  651 #define close_socket(_s) do { if (_s > SOCK_INVALID) {close(_s); _s = SOCK_INVALID;} } while(0)
+  652 #endif
+  653 
+  654 #ifdef __cplusplus
+  655 }
+  656 #endif
+  657 #ifndef HAVE_GETADDRINFO
+  658 #include "compat/fake-rfc2553.h"
+  659 #endif
+  660 #ifndef HAVE_STRTOUL
+  661 #define strtoul (unsigned long)strtol
+  662 #endif
+  663 
